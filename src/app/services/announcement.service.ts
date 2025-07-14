@@ -7,7 +7,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class AnnouncementService {
-  url = 'https://atelier-de-toril.fr/api/announcements';
+  // url = 'https://atelier-de-toril.fr/api/announcements';
+  url = 'http://130.211.73.187/api/announcements';
 
   private httpClient = inject(HttpClient);
 
